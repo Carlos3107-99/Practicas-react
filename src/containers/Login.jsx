@@ -6,7 +6,7 @@ const Login=()=>{
         
        
          
-        <div className="header ">
+        <div className="html ">
         <title>Inicia Sesión</title>
         
           
@@ -15,7 +15,7 @@ const Login=()=>{
             <header className="header">
             <img class="header__img" src="../assets/logo-platzi-video-BW2.png" alt="Platzi Video"/>
             </header>
-            <br/>
+            
             <section class="login">
                 <section class="login__container">
                     <h2>Inicia sesión</h2>

@@ -1,10 +1,10 @@
-import react from 'react';
+import React from 'react';
 
 import '../assets/styles/Register.scss';
 
 const Register=()=>{
   return  (
-    <div className="header">
+    <div className="html">
         <title>Registro</title>
             <header class="header">
                 <img class="header__img" src="../assets/logo-platzi-video-BW2.png" alt="Platzi Video"/>

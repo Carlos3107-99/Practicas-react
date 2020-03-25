@@ -47,14 +47,14 @@ import * as serviceWorker from './serviceWorker';
 // ReactDOM.render(< Carousel/>, document.getElementById('root'));
 
 
-// // ----------------login--------------->
-// import Login from '../src/containers/Login';
-// ReactDOM.render(<Login/>,document.getElementById('root'));
+// ----------------login--------------->
+import Login from '../src/containers/Login';
+ReactDOM.render(<Login/>,document.getElementById('root'));
 
 
-// ---------------Register----------------->
-import Register from '../src/containers/Register';
-ReactDOM.render(<Register/>,document.getElementById('root'));
+// // ---------------Register----------------->
+// import Register from '../src/containers/Register';
+// ReactDOM.render(<Register/>,document.getElementById('root'));
 
 
 
