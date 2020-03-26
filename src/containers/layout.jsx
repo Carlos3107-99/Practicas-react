@@ -4,13 +4,19 @@ import Header from '../components/Header';
 import Search from '../components/Search';
 import Footer from '../components/Footer';
 import Carousel from '../components/Carousel';
+import Categories from '../components/Categories';
+import CarouselItem from '../containers/CarouselItem';
 
 const Layout =()=>{
     return (
         <div className="apps">
             <Header/>
             <Search/>
+            <Categories>
             <Carousel/>
+            <CarouselItem/>
+
+            </Categories>
             <Footer/>
         </div>
     )
@@ -18,22 +24,3 @@ const Layout =()=>{
 
 export default Layout;
 
-// import React from 'react';
-// import '../assets/styles/app.scss';
-// import CEMR from '../components/CEMR';
-// import Vacasiones from '../components/Vacasiones';
-// import ClaseDigital from '../components/ClaseDigital';
-
-
-// const Layout =()=>{
-//     return (
-//         <div className="app">
-//            <CEMR/>
-//            <Vacasiones/>
-//            <ClaseDigital/>
-            
-//         </div>
-//     )
-// }
-
-// export default Layout;
