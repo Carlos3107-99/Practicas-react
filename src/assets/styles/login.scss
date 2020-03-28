@@ -1,6 +1,8 @@
+@import'../styles/Vars.scss';
 body {
   margin: 0;
   font-family: 'Muli', sans-serif;
+  background:$main-color;
 }
 
 .header {

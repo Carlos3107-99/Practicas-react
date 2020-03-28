@@ -1,6 +1,8 @@
+@import'../styles/Vars.scss';
+
 .header {
     align-items: center;
-    background: #FF3333;
+    background: $main-color;
     color: black;
     display: flex;
     height: 100px;
@@ -19,7 +21,7 @@
     margin-right: 30px;
 }
 
-c.header__menu ul {
+.header__menu ul {
     display: none;
     list-style: none;
     margin: 0px 0px 0px -14px;

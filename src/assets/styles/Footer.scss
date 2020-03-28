@@ -1,7 +1,8 @@
+@import'../styles/Vars.scss';
 body {
     margin: 0;
     font-family: 'Muli', sans-serif;
-    background: #f74b2c;
+    background:$main-color;
 }
 
 * {
@@ -10,14 +11,14 @@ body {
 
 .footer {
     align-items: center;
-    background-color:red($color: #000000);
+    background:$main-color;
     display: flex;
     height: 100px;
     width: 100%; 
   }
   
   .footer a {
-    color: rgb(10, 10, 10);
+    background:$main-color;
     cursor: pointer;
     font-size: 14px;
     padding-left: 30px;

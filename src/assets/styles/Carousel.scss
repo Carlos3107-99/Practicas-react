@@ -1,4 +1,6 @@
+@import'../styles/Vars.scss';
 .carousel {
+    background:$main-color;
     overflow: scroll;
     padding-left: 30px;
     width: 100%;
@@ -54,7 +56,7 @@
 
 .carousel-item__details {
     align-items: flex-start;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    background:$main-color;
     bottom: 0;
     display: flex;
     font-size: 10px;
